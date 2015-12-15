@@ -1,0 +1,88 @@
+.thing-form {
+    margin: 20px 0;
+}
+
+#banner {
+    border-bottom: none;
+    margin-top: -20px;
+}
+
+#banner h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.hero-unit {
+    position: relative;
+    padding: 30px 15px;
+    color: #F5F5F5;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    background: #4393B9;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.navbar-text {
+    margin-left: 15px;
+}
+
+body {
+    background-color: #8a2be2;
+    color:white;
+}
+input {
+    background-color: #8a2be2;
+    border:none;
+    outline-style:solid;
+    outline-color:white;
+    outline-width:1px;
+}
+li {
+    color:white;
+}
+
+h1 {
+    color:white;
+}
+
+.hoverPanel {
+        background-color: #8a2be2;
+        color:white;
+}
+
+.hoverPanel:hover {
+        background-color: #8a2be2;
+        color:white;
+        border-width: 1px 1px 1px 1px;
+        border-color: white black black black;
+        border-style:solid;
+}
+
+.btn-reserve {
+    background-color:#8a2be2;
+    color:white;
+    text-align:center;
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+  
+    border-radius:6px;
+
+
+}
+
+.btn-reserve:hover,.btn-reserve:active {
+    background-color:#8a2be2;
+    color:white;
+    text-align:center;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+}

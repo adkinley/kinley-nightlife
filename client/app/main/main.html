@@ -1,0 +1,39 @@
+<script src="bower_components/oauth-signature/dist/oauth-signature.min.js"></script>
+<body>
+
+<div class="container">
+
+<h2>Plans Tonight?</h2>
+
+<p>See which bars are hoppin' tonight and RSVP ahead of time!</p>
+<p>Remember: Take a cab and drink responsibly.</p>
+
+
+<form type="submit">
+  <input ng-model="searchInfo" type="text"></input>
+<button  ng-click="search()" type="submit" class="btn btn-default">GO</button>
+</form>
+
+
+<div ng-repeat="restaurant in restaurants">
+  <div class="panel hoverPanel">
+<img class="img" src={{restaurant.image_url}}></img>
+<text class="restaurantName">{{restaurant.name}}</text>
+  <button class="btn btn-sm btn-reserve"  ng-click="reserveRestaurant(restaurant.id)">{{restaurant.count}} GOING</button>
+  <text>{{restaurant.id}}<p>
+  <text class="restaurantReview">{{restaurant.snippet_text}}
+  </text>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+
+
+  <div class="container">
+      <p>Angular Fullstack v2.1.1 |
+        <a href="https://twitter.com/adkinley">@adkinley</a> |
+         <a href="https://github.com/adkinley/kinley-nightlife/issues?state=open">Issues</a></p>
+  </div>
+</footer>
+</body>
